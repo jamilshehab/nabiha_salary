@@ -12,3 +12,5 @@ nabiha_total_electricity_consumption=your_electricity_consumption / nabiha_salar
  
 total_amount=nabiha_total_saving + nabiha_total_rent + nabiha_total_electricity_consumption
 
+remainder_salary=nabiha_salary_of_the_month // total_amount
+
