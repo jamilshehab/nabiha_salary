@@ -4,7 +4,8 @@ month_name=input("enter your month name to store your salary for : ")
 your_saving_nabiha=int(input("Nabiha enter your saving  : "))
 your_rent_nabiha=int(input("Nabiha enter your rent : "))
 your_electricity_consumption=int(input("Nabiha enter your electricity consumption : "))
-nabiha_additional_random_amount=50
+is_additonal_amount=True
+additional_amount=50
 #calculate the percentage of saving , rating and electricity
 nabiha_total_saving=your_saving_nabiha / nabiha_salary_of_the_month * 100 
 nabiha_total_rent=your_rent_nabiha / nabiha_salary_of_the_month * 100 
@@ -20,3 +21,7 @@ total_yearly_rent=nabiha_total_rent + nabiha_total_electricity_consumption * 12
 nabiha_double_total_salary=nabiha_salary_of_the_month ** 2
 
 #display a condition 
+if is_additonal_amount:
+   nabiha_total_amount=additional_amount / total_amount
+   print(nabiha_total_amount)
+   
