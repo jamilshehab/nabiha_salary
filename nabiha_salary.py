@@ -14,4 +14,7 @@ total_amount=nabiha_total_saving + nabiha_total_rent + nabiha_total_electricity_
 
 remainder_salary=nabiha_salary_of_the_month // total_amount
 
-total_yearly_rent=nabiha_total_rent + nabiha_total_electricity_consumption ** 12
+total_yearly_rent=nabiha_total_rent + nabiha_total_electricity_consumption * 12
+
+#nabiha total salary of the month times 2 just for fun
+nabiha_double_total_salary=nabiha_salary_of_the_month ** 2
