@@ -7,6 +7,8 @@ your_electricity_consumption=int(input("Nabiha enter your electricity consumptio
 
 #calculate the percentage of saving , rating and electricity
 nabiha_total_saving=your_saving_nabiha / nabiha_salary_of_the_month * 100 
-nabiha_total_rent=your_saving_nabiha / nabiha_salary_of_the_month * 100 
-nabiha_total_electricity_consumption=your_saving_nabiha / nabiha_salary_of_the_month * 100 
+nabiha_total_rent=your_rent_nabiha / nabiha_salary_of_the_month * 100 
+nabiha_total_electricity_consumption=your_electricity_consumption / nabiha_salary_of_the_month * 100 
  
+total_amount=nabiha_total_saving + nabiha_total_rent + nabiha_total_electricity_consumption
+
