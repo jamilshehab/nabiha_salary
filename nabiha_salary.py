@@ -13,7 +13,7 @@ nabiha_total_electricity_consumption=your_electricity_consumption / nabiha_salar
  
 total_amount=nabiha_total_saving + nabiha_total_rent + nabiha_total_electricity_consumption
 
-remainder_salary=nabiha_salary_of_the_month // total_amount
+remainder_salary=nabiha_salary_of_the_month % total_amount
 
 total_yearly_rent=nabiha_total_rent + nabiha_total_electricity_consumption * 12
 
@@ -25,15 +25,15 @@ if is_additonal_amount:
    nabiha_additional_total_amount=additional_amount / total_amount
    print(f"Nabiha Additional Amount is : ${nabiha_additional_total_amount}")
 
-print(f"Nabiha Salary of the  Month is : ${nabiha_salary_of_the_month} $")
-print(f"The Month Name is  : ${month_name}")
-print(f"Nabiha Total Saving is : ${nabiha_total_saving} $")
-print(f"Nabiha Total Rent is : ${nabiha_total_rent} $")
-print(f"Nabiha Total Electricity Consumption is : ${nabiha_total_electricity_consumption} $")
-print(f"Nabiha Total Amount is : ${total_amount} $")
-print(f"Nabiha Remainder Salary : ${nabiha_total_saving} $")
-print(f"Nabiha Total Yearly Rent is : ${total_yearly_rent} $")
-print(f"Nabiha Total Electricity Consumption is : ${nabiha_total_electricity_consumption} $")
-print(f"Nabiha Double Total Salary : ${nabiha_double_total_salary} $")
+print(f"Nabiha Salary of the  Month is : {nabiha_salary_of_the_month} $")
+print(f"The Month Name is  : {month_name}")
+print(f"Nabiha Total Saving is : ${nabiha_total_saving} $ ")
+print(f"Nabiha Total Rent is : ${nabiha_total_rent} $ ")
+print(f"Nabiha Total Electricity Consumption is : {nabiha_total_electricity_consumption} $ ")
+print(f"Nabiha Total Amount is :  {total_amount} $ ")
+print(f"Nabiha Remainder Salary : {nabiha_total_saving} $")
+print(f"Nabiha Total Yearly Rent is : {total_yearly_rent} $")
+print(f"Nabiha Total Electricity Consumption is : {nabiha_total_electricity_consumption} $ ")
+print(f"Nabiha Double Total Salary :  {nabiha_double_total_salary} $ ")
 
 
