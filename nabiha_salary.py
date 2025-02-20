@@ -22,19 +22,17 @@ for i in range(number_of_month):
       nabiha_double_total_salary=nabiha_salary_of_the_month ** 2
       
       total_result=[]
-      total_result.append({"Nabiha Salary" : nabiha_salary_of_the_month})
-      total_result.append({"The Month Name" : month_name})
-      total_result.append({"Nabiha Total Saving " : nabiha_total_saving})
-      total_result.append({"Nabiha Total Rent " : nabiha_total_rent})
-      total_result.append({"Nabiha Total Electricity Consumption" : nabiha_total_electricity_consumption})
-      total_result.append({"Nabiha Total Amount is" : nabiha_total_electricity_consumption})
-      total_result.append({"Nabiha Remainder Salary" : nabiha_total_electricity_consumption})
-      total_result.append({"Nabiha Total Yearly Rent is " : nabiha_total_electricity_consumption})
-      total_result.append({"Nabiha Double Total Salary" : nabiha_double_total_salary})
-for key,value in total_result:
-    if key == month_name and key == nabiha_salary_of_the_month:
-       print("Hi")
-# print(total_result)
-
+      total_result.append(f"Nabiha Salary : {nabiha_salary_of_the_month}")
+      total_result.append(f"The Month Name : {month_name}")
+      total_result.append(f"Nabiha Total Saving : {nabiha_total_saving}")
+      total_result.append(f"Nabiha Total Rent : {nabiha_total_rent}")
+      total_result.append(f"Nabiha Total Electricity Consumption : {nabiha_total_electricity_consumption}")
+      total_result.append(f"Nabiha Total Amount is : {nabiha_total_electricity_consumption}")
+      total_result.append(f"Nabiha Remainder Salary : {nabiha_total_electricity_consumption}")
+      total_result.append(f"Nabiha Total Yearly Rent is : {total_yearly_rent}")
+      total_result.append(f"Nabiha Double Total Salary : {nabiha_double_total_salary}" )
+ 
+print(total_result)
+ 
  
 
