@@ -26,23 +26,14 @@ for i in range(number_of_month):
       total_result.append({"The Month Name" : month_name})
       total_result.append({"Nabiha Total Saving " : nabiha_total_saving})
       total_result.append({"Nabiha Total Rent " : nabiha_total_rent})
-      total_result.append({""})
+      total_result.append({"Nabiha Total Electricity Consumption" : nabiha_total_electricity_consumption})
+      total_result.append({"Nabiha Total Amount is" : nabiha_total_electricity_consumption})
+      total_result.append({"Nabiha Remainder Salary" : nabiha_total_electricity_consumption})
+      total_result.append({"Nabiha Total Yearly Rent is " : nabiha_total_electricity_consumption})
+      total_result.append({"Nabiha Double Total Salary" : nabiha_double_total_salary})
+      
 
+print(total_result)
 
-#display a condition 
-   #  if is_additonal_amount:
-   #       nabiha_additional_total_amount=additional_amount / total_amount
-   #       print(f"Nabiha Additional Amount is :  {nabiha_additional_total_amount}")
-
-      print(f"Nabiha Salary of the  Month is : {nabiha_salary_of_the_month} $")
-      print(f"The Month Name is  : {month_name}")
-      print(f"Nabiha Total Saving is :  {nabiha_total_saving} $ ")
-      print(f"Nabiha Total Rent is : {nabiha_total_rent} $ ")
-      print(f"Nabiha Total Electricity Consumption is : {nabiha_total_electricity_consumption} $ ")
-      print(f"Nabiha Total Amount is :  {total_amount} $ ")
-      print(f"Nabiha Remainder Salary : {nabiha_total_saving} $")
-      print(f"Nabiha Total Yearly Rent is : {total_yearly_rent} $")
-      print(f"Nabiha Total Electricity Consumption is : {nabiha_total_electricity_consumption} $ ")
-      print(f"Nabiha Double Total Salary :  {nabiha_double_total_salary} $ ")
-
+ 
 
