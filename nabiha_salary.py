@@ -20,7 +20,14 @@ for i in range(number_of_month):
 
 #nabiha total salary of the month times 2 just for fun
       nabiha_double_total_salary=nabiha_salary_of_the_month ** 2
-   
+      
+      total_result=[]
+      total_result.append({"Nabiha Salary" : nabiha_salary_of_the_month})
+      total_result.append({"The Month Name" : month_name})
+      total_result.append({"Nabiha Total Saving " : nabiha_total_saving})
+      total_result.append({"Nabiha Total Rent " : nabiha_total_rent})
+      total_result.append({""})
+
 
 #display a condition 
    #  if is_additonal_amount:
