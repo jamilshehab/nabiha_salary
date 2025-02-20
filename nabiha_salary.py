@@ -26,9 +26,9 @@ for i in range(0,number_of_month):
       total_result.append(f"Nabiha Remainder Salary {remainder_salary}")
       total_result.append(f"Nabiha Total Yearly Rent is {total_yearly_rent}")
       total_result.append(f"Nabiha Double Total Salary {nabiha_double_total_salary}")
-for item in total_result:
-   print(item)
-
+print(total_result)
+    
+ 
  
  
 
