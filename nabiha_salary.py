@@ -14,7 +14,7 @@ for i in range(number_of_month):
  
       total_amount=nabiha_total_saving + nabiha_total_rent + nabiha_total_electricity_consumption
 
-      remainder_salary=nabiha_salary_of_the_month % total_amount
+      remainder_salary=nabiha_salary_of_the_month - total_amount
 
       total_yearly_rent=nabiha_total_rent + nabiha_total_electricity_consumption * 12
 
