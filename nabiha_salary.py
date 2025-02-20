@@ -1,5 +1,6 @@
 number_of_month=int(input("enter the user below :"))
-for i in range(number_of_month):
+total_result=[]
+for i in range(0,number_of_month):
 #Create a user inputs
       nabiha_salary_of_the_month=int(input("Nabiha enter your salary of the month : "))
       month_name=input("enter your month name to store your salary for : ")
@@ -21,16 +22,16 @@ for i in range(number_of_month):
 #nabiha total salary of the month times 2 just for fun
       nabiha_double_total_salary=nabiha_salary_of_the_month ** 2
       
-      total_result=[]
-      total_result.append(f"Nabiha Salary : {nabiha_salary_of_the_month}")
-      total_result.append(f"The Month Name : {month_name}")
-      total_result.append(f"Nabiha Total Saving : {nabiha_total_saving}")
-      total_result.append(f"Nabiha Total Rent : {nabiha_total_rent}")
-      total_result.append(f"Nabiha Total Electricity Consumption : {nabiha_total_electricity_consumption}")
-      total_result.append(f"Nabiha Total Amount is : {nabiha_total_electricity_consumption}")
-      total_result.append(f"Nabiha Remainder Salary : {nabiha_total_electricity_consumption}")
-      total_result.append(f"Nabiha Total Yearly Rent is : {total_yearly_rent}")
-      total_result.append(f"Nabiha Double Total Salary : {nabiha_double_total_salary}" )
+     
+      total_result.append({"Nabiha Salary" : nabiha_salary_of_the_month} )
+      total_result.append({"The Month Name" : month_name})
+      total_result.append({"Nabiha Total Saving" : nabiha_total_saving})
+      total_result.append({"Nabiha Total Rent" : nabiha_total_rent})
+      total_result.append({"Nabiha Total Electricity Consumption" : nabiha_total_electricity_consumption})
+      total_result.append({"Nabiha Total Amount": nabiha_total_electricity_consumption})
+      total_result.append({"Nabiha Remainder Salary": remainder_salary})
+      total_result.append({"Nabiha Total Yearly Rent is " : total_yearly_rent})
+      total_result.append({"Nabiha Double Total Salary ": nabiha_double_total_salary} )
  
 print(total_result)
  
