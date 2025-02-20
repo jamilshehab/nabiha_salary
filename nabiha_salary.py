@@ -26,9 +26,10 @@ for i in range(0,number_of_month):
       total_result.append({"Nabiha Remainder Salary": remainder_salary})
       total_result.append({"Nabiha Total Yearly Rent is " : total_yearly_rent})
       total_result.append({"Nabiha Double Total Salary ": nabiha_double_total_salary} )
-for key in total_result:
- for i in key:
-   print(i)
+for value in total_result:
+   if total_result['Nabiha Salary'] == nabiha_salary_of_the_month and total_result["The Month Name"] ==month_name:
+      print("Hello")
+
  
  
 
