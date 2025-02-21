@@ -18,18 +18,18 @@ for i in range(0,number_of_month):
       total_yearly_rent=nabiha_total_rent + nabiha_total_electricity_consumption * 12
 #nabiha total salary of the month times 2 just for fun
       nabiha_double_total_salary=nabiha_salary_of_the_month ** 2
-      total_result.append(f"Nabiha Salary {nabiha_salary_of_the_month}")
+      total_result.append(f"Nabiha Salary {nabiha_salary_of_the_month} $")
       total_result.append(f"The Month Name {month_name}")
-      total_result.append(f"Nabiha Total Saving {nabiha_total_saving}")
-      total_result.append(f"Nabiha Total Rent {nabiha_total_rent}")
-      total_result.append(f"Nabiha Total Electricity Consumption {nabiha_total_electricity_consumption}")
-      total_result.append(f"Nabiha Total Amount {total_amount}")
-      total_result.append(f"Nabiha Remainder Salary {remainder_salary}")
-      total_result.append(f"Nabiha Total Yearly Rent is {total_yearly_rent}")
-      total_result.append(f"Nabiha Double Total Salary {nabiha_double_total_salary}")
+      total_result.append(f"Nabiha Total Saving {nabiha_total_saving} $")
+      total_result.append(f"Nabiha Total Rent {nabiha_total_rent} $")
+      total_result.append(f"Nabiha Total Electricity Consumption {nabiha_total_electricity_consumption} $")
+      total_result.append(f"Nabiha Total Amount {total_amount} $")
+      total_result.append(f"Nabiha Remainder Salary {remainder_salary} $")
+      total_result.append(f"Nabiha Total Yearly Rent is {total_yearly_rent} $")
+      total_result.append(f"Nabiha Double Total Salary {nabiha_double_total_salary} $")
       if is_additional:
          nabiha_additional_amount=additional_amount / total_amount
-         total_result.append(f"Nabiha Additional Amount is : {nabiha_additional_amount}")
+         total_result.append(f"Nabiha Additional Amount is : {nabiha_additional_amount} $")
 
 print(total_result)
     
