@@ -27,11 +27,12 @@ for i in range(0,number_of_month):
       total_result.append(f"Nabiha Remainder Salary {remainder_salary} $")
       total_result.append(f"Nabiha Total Yearly Rent is {total_yearly_rent} $")
       total_result.append(f"Nabiha Double Total Salary {nabiha_double_total_salary} $")
-      if is_additional:
-         nabiha_additional_amount=additional_amount / total_amount
-         total_result.append(f"Nabiha Additional Amount is : {nabiha_additional_amount} $")
-
-print(total_result)
+      # if is_additional:
+      #    nabiha_additional_amount=additional_amount / total_amount
+      #    total_result.append(f"Nabiha Additional Amount is : {nabiha_additional_amount} $")
+for item in range(len(total_result)):
+   print(nabiha_salary_of_the_month==total_result[item])
+ # print(total_result)
     
  
  
